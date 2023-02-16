@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row col-7">
+        <table class="table table-striped">
+            <thead>
+                <th *ngFor = "let header of plushHeader">{{header}} </th>
+            </thead>
+            <tbody>
+                <tr *ngFor = 'let data of plushData'>{{data.creator}}
+                    <td> {{data.name}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
